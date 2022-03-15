@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org ">
+<head>
+    <meta charset="UTF-8">
+    <title>SignUp</title>
+</head>
+<body>
+
+<div alignement="center">
+    <form>
+        <label th.text="{signup.email} " for="email">Email</label>
+        <input type="email" id="email" name="email"/>
+        </br>
+        <label th.text="{signup.password}" for="password"> Password</label>
+        <input type="password" id="password" name="password"/>
+        </br>
+        <label for="hairdresser"> Hairdresser</label>
+        <input name="hairdresser"type="checkbox"/>
+        <button onclick="">Submit</button>
+    </form>
+</div>
+
+</body>
+</html>
